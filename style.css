@@ -1,0 +1,93 @@
+* {
+
+    box-sizing: border-box;
+}
+
+.first-heading {
+    text-align: center !important;
+    color: #333333;
+    margin: 0px 0px 30px;
+    font-weight: 600;
+    font-family: Montserrat, sans-serif !important;
+    /* line-height: 46px; */
+    font-size: 24px;
+}
+
+.cards-container {
+    width: 85%;
+    height: auto;
+    /* background-color:grey;  */
+    margin: 0px auto;
+    display: flex;
+
+    background-repeat: no-repeat;
+}
+
+@media screen and  (max-width: 700px) {
+    
+    .cards-container, .left-card-container {
+        width: 60%;
+            
+            
+            
+        }
+      }
+
+.left-card-container {
+
+
+
+    height: auto;
+    /* background-color: aquamarine;  */
+    display: flex;
+    padding: 10px;
+}
+
+.right-side-work {
+    margin-left: 30px;
+}
+
+/* arrow keyframes animation/// */
+.anker-animation {
+
+    color: dodgerblue;
+    font-size: 16px;
+    display: block;
+    margin: 5px auto 0px;
+    position: relative;
+
+
+}
+
+.anker-animation:hover {
+    text-decoration: underline;
+    color: dodgerblue;
+    cursor: pointer;
+    display: block;
+}
+
+.image-animation {
+    width: 30px;
+    height: 20px;
+    transition: width 0.5s;
+}
+
+.image-animation:hover {
+    width: 40px;
+}
+
+
+.right-side-heading {
+    color: #333333;
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.right-side-paragraph {
+
+    color: #333333;
+    font-size: 20px;
+    margin-bottom: 0px;
+    font-family: Montserrat, sans-serif !important;
+}
