@@ -91,3 +91,51 @@
     margin-bottom: 0px;
     font-family: Montserrat, sans-serif !important;
 }
+
+
+
+/* background custom work here//// */
+
+.background-custom{
+    background-image: url(https://www.capitalnumbers.com/images/webp/common/tl-pt.webp);
+    background-repeat: no-repeat;
+    /* background-repeat: repeat-x,repeat-y; */
+    background-color:  #f5f5f5;
+    width: 100%;
+    height: auto;
+
+}
+.background-heading{
+    font-size: 50px;
+    font-weight: bold;
+    padding: 40px 0px 0px 0px;
+    font-family: Montserrat,sans-serif!important;
+    text-align: center;
+    color: #333;
+    
+}
+
+.first-clear-property{
+    background-color: aqua;
+    width: 80%;
+    height: auto;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.button-done{
+    color: green;
+}
+
+
+
+.first-con{
+    width: 100%;
+    height: auto;
+    background-color: aquamarine;
+}
+
+.second-con{
+    background-color: burlywood;
+}
